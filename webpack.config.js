@@ -34,5 +34,13 @@ module.exports = {
             filename: "[name].css",
             chunkFilename: "[id].css"
         })
-    ]
+    ],
+    stats: {
+        errorDetails: true
+    },
+
+    devServer: {
+        historyApiFallback: true,
+    },
+    watch: true
 };
